@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.Container1 {
+    display: flex;
+}
+
+.Container1 .ladoIzquierdo {
+    flex: 20%;
+    background-color: #fff;
+
+}
+
+.container3 {
+    flex: 80%;
+    background-color: #e8ebe4;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    align-items: center;
+
+}
+
+.imgPerfil {
+    display: flex;
+    height: 100;
+}
+
+.imgPerfil .Maria h5 p {
+    margin: 10px;
+}
+
+
+
+.imgPerfil img {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.iconos {
+    display: flex;
+}
+
+.iconos li {
+    display: flex;
+    list-style: none;
+    color: black;
+    font-size: medium;
+    margin-right: 20px;
+}
+
+
+
+.Logo {
+    width: 350px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    background-color: #a491d2;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    border: 35px solid white;
+    border-radius: 100px;
+}
+
+.detalles {
+    font-size: 14px;
+
+}
+
+.imgBox img {
+    width: 40px;
+    border-radius: 50%;
+    padding: 0 6px;
+    margin: 10px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid grey;
+    height: 11.5vh;
+}
+
+.boton .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
